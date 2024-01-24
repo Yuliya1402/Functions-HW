@@ -9,7 +9,7 @@ class Program
       int[] array = new int [arraySize];
       for(int i = 0; i < arraySize; i++) 
       {
-        array[i] = rand.Next(100, 999);
+        array[i] = rand.Next(100, 1000);
       }
       
       foreach(int elem in array)
